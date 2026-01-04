@@ -4,3 +4,4 @@ node_modules
 src/dataconnect-generated
 dataconnect
 firebase-debug.log
+.env
