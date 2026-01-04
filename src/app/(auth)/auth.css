@@ -1,0 +1,42 @@
+@reference "tailwindcss";
+
+.container {
+  @apply p-4;
+}
+
+.auth-container {
+  @apply flex min-h-screen flex-col items-center justify-center p-4;
+  background: linear-gradient(to bottom right, #6366f1, #a855f7);
+}
+
+.auth-card {
+  @apply w-full max-w-md rounded-2xl bg-white/10 p-8 shadow-2xl backdrop-blur-lg;
+}
+
+.auth-title {
+  @apply mb-6 text-center text-4xl font-extrabold text-white;
+}
+
+.auth-form {
+  @apply space-y-6;
+}
+
+.auth-label {
+  @apply block text-sm font-medium text-white;
+}
+
+.auth-input {
+  @apply mt-1 block w-full rounded-md border-transparent bg-white/20 px-4 py-3 text-white shadow-sm placeholder-white/70 focus:border-transparent focus:ring-2 focus:ring-white;
+}
+
+.auth-button {
+  @apply w-full rounded-md bg-white px-4 py-3 text-lg font-semibold text-indigo-600 shadow-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800;
+}
+
+.auth-link {
+  @apply text-center text-sm text-white/80;
+}
+
+.auth-link a {
+  @apply font-medium text-white hover:underline;
+}
